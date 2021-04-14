@@ -1,0 +1,17 @@
+{
+  "name": "automated_tests_tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -w test/",
+    "test-knight": "./node_modules/mocha/bin/mocha -w test/chessMoveKnight.test.js --watch-files src --watch-files test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
